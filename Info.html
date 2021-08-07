@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/56c232d0be.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        body{
+            font-family:'Roboto',sans-serif;
+            background-color:mistyrose;
+        }
+        div.container{
+            position:absolute;
+            top:50%;
+            left:80%;
+            transform:translate(-50%,-50%);
+
+            height:100%;
+
+        }
+        .login{
+            text-align:center;
+            padding:50px;
+            margin-top:40px;
+            margin-left:30%;
+            margin-bottom:40px;
+            width:50%;
+            background-color:white;
+            border:1px solid grey;
+            border-radius:10px;
+
+        }
+        #l1{
+            background-color:rgb(76, 66, 223);
+        }
+        #l2{
+            background-color:rgb(24, 219, 66);
+
+        }
+        #l3{
+            background-color:rgb(228, 19, 19);
+        }
+        #l4{
+            background-color:#1E6F5C;
+
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="login" id="l1">
+            <i class="fas fa-user fa-5x"></i>
+            <h1><a href="Register.php">Registeration Login</a></h1>
+        </div>
+        <div class="login" id="l2">
+            <i class="fas fa-user fa-5x"></i>
+            <h1><a href="Login.php">Student Login</a></h1>
+        </div>
+        <div class="login" id="l3">
+            <i class="fas fa-user fa-5x"></i>
+            <h1><a href="TeacherLogin.php">Teacher Login</a></h1>
+        </div>
+        <div class="login" id="l4">
+            <i class="fas fa-user fa-5x"></i>
+            <h1><a href="AdminLogin.php">Admin Login</a></h1>
+        </div>
+    </div>
+</body>
+</html>
